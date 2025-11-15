@@ -1,4 +1,3 @@
-
 # FLASHING-OF-LEDS-WITH-LPC-1768
 
 ## AIM: 
@@ -51,7 +50,7 @@ Command: fromelf --bin projectname.axf --output filename.bin
  <img width="672" height="378" alt="image" src="https://github.com/user-attachments/assets/564379bd-23eb-490f-8d7c-bf957ab4739a" />
 
 ## PROGRAM:
-```
+
 #include <lpc17xx.h> 
 #include "delay.h" //User defined library which conatins the delay routines 
 #include "gpio.h" 
@@ -73,7 +72,7 @@ int main()
    DELAY_ms(100); 
   } 
 }
-```
+
 
  
 ## Output:
